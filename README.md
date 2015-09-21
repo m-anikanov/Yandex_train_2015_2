@@ -19,3 +19,8 @@
 
 	classObject.classname1 = false; 		  //удалит данное свойство из объекта, а класс из элемента.
 	classObject.classname1 = "classname2";    //заменит classname1 на classname2 в объекте и в элементе.
+
+
+##Демо
+
+http://mvanikanov.ru/ya_train/2/
