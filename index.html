@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<script src="classes.js"></script>
+	<title>Document</title>
+</head>
+<body id="body">
+	<div id="test" class=""></div>
+</body>
+<script>
+
+var element = document.querySelector('#test');
+var classes = DOMClasses(element);
+
+//добавляем классы
+classes.test1 = true;
+classes.test2 = true;
+classes.test3 = true;
+classes.test4 = true;
+
+//удаляем test1
+classes.test1 = false;
+//заменяем test2 на test5
+classes.test2 = "test5";
+//удаляем test3
+delete classes.test3;
+
+</script>
+</html>
