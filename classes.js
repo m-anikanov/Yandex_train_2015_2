@@ -49,7 +49,7 @@ DOMClasses = function(element){
 			Object.unobserve(classObject, observer);
 
 			//Дополнительный функционал для работы с данным объектом. 
-			for(i in classObject){
+			for(var i in classObject){
 
 				//За одно, валидация значений.
 				if(typeof classObject[i] !== "string" && typeof classObject[i] !== "boolean"){
